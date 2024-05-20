@@ -1,0 +1,57 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  Sources/Web:
+    dependencies:
+      '@fontsource-variable/nunito':
+        specifier: ^5.0.19
+        version: 5.0.19
+      bootstrap:
+        specifier: ^5.3.3
+        version: 5.3.3(@popperjs/core@2.11.8)
+      jquery:
+        specifier: ^3.7.1
+        version: 3.7.1
+      utopia-core-scss:
+        specifier: ^1.0.1
+        version: 1.0.1
+
+packages:
+
+  '@fontsource-variable/nunito@5.0.19':
+    resolution: {integrity: sha512-kY+1OIFhl167U25iY+V2GLk6E389UKIu0rnJXAj2y4qc6mYqbMcyeT0Y7G+btT6ZdItL2dcvX0bOfe0cbddQYg==}
+
+  '@popperjs/core@2.11.8':
+    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
+
+  bootstrap@5.3.3:
+    resolution: {integrity: sha512-8HLCdWgyoMguSO9o+aH+iuZ+aht+mzW0u3HIMzVu7Srrpv7EBBxTnrFlSCskwdY1+EOFQSm7uMJhNQHkdPcmjg==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.8
+
+  jquery@3.7.1:
+    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
+
+  utopia-core-scss@1.0.1:
+    resolution: {integrity: sha512-1v4FLU6yrQPr8Zy0zJLesY9yAnCBrW1f8UbW/eV8zIEujqjUy5guMFbM4ANRo29QljpUPho91suDZZBnqUNFAQ==}
+
+snapshots:
+
+  '@fontsource-variable/nunito@5.0.19': {}
+
+  '@popperjs/core@2.11.8': {}
+
+  bootstrap@5.3.3(@popperjs/core@2.11.8):
+    dependencies:
+      '@popperjs/core': 2.11.8
+
+  jquery@3.7.1: {}
+
+  utopia-core-scss@1.0.1: {}
